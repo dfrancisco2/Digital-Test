@@ -155,8 +155,9 @@ body {
   .hero-content {
     padding: 80px;
   }
-  .contaienr {
+  .container {
     max-width: 100%;
+    padding: 0;
   }
   .card {
     display: block;

@@ -12,7 +12,8 @@ body {
   font-size: 1.3rem;
   color: white;
   text-align: center;
-  padding: 2rem 0;
+  padding: 1rem;
+  overflow-x: hidden;
 }
 
 #hero {
@@ -21,6 +22,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 
   #hero-video {
     object-fit: cover;
@@ -67,6 +69,7 @@ body {
   left: 0;
   background: rgba(0, 0, 0, 0.2);
   z-index: 10;
+  overflow-x: hidden;
 }
 
 /*Main Section*/
@@ -75,7 +78,6 @@ body {
   margin: auto;
   overflow: auto;
   padding: 0 2rem;
-  overflow-x: hidden;
 
   h3 {
     font-size: 1.5rem;
@@ -87,11 +89,6 @@ body {
   img {
     width: 100%;
   }
-
-  p {
-    text-align: left;
-  }
-
   .card {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

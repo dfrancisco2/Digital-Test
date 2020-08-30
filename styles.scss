@@ -129,7 +129,8 @@ body {
 
 @media only screen and (max-width: 700px) {
   body {
-    padding: 2rem 0;
+    padding: 16px 0 10px;
+    overflow-x: hidden;
   }
 
   #hero h1 {
@@ -147,9 +148,10 @@ body {
   .container {
     max-width: 100%;
     padding: 0;
+    overflow-x: hidden;
   }
   .card {
-    display: block;
+    overflow-x: hidden;
   }
   #hero .card:nth-child(even) figure {
     order: 0;
